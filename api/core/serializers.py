@@ -6,7 +6,6 @@ from core.models import Article
 class ArticleSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Article
-        # fields = '__all__'
         fields = ('headline', 'pub_date')
 
 

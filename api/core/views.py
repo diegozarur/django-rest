@@ -1,6 +1,5 @@
 from rest_framework import viewsets
-from core.models import Reporter
-from core.models import Article
+from core.models import Reporter, Article
 from .serializers import ReporterSerializer, ArticleSerializer
 
 
